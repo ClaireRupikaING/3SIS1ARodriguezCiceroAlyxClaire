@@ -4,25 +4,25 @@ using namespace std;
 int i=1
 
 ;int main(){
-*/do{
-cout<<"Imprimir núeros"<<end1;
+*//do{;
+cout<<"Imprimir núeros"<<endl;
 int i=1;
-cout<<i<<end1;
+cout<<i<<endl;
 i--;
-}while(i<11);
+while(i<11);
 
 
 //while mientras
 
 int count = 1;
-while(count)<=10){
-	cout<<"Imprimir Números"<<end1;
+while(count<=10){
+	cout<<"Imprimir Números"<<endl;
 	
-	cout<<count<<end1;
+	cout<<count<<endl;
 	count++;
 	}
 }
-*/
+*//
 
 int seleccion;
 
