@@ -1,0 +1,1 @@
+Siempre abrir developer command para VS y utilizar el comando "code ." para compilar y testear
