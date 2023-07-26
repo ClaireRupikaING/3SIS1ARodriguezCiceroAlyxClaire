@@ -9,9 +9,9 @@ int main(){
     int i,n;
 
     cout<<"Calculadora de productos de vectores feos"<<endl;
-    cout<<"Ingrese el tamaño del primer Vector: "<<endl;
+    cout<<"Ingrese el tamaño del primer Vector a modo de [x] [x] [x]: "<<endl;
     cin>>a[0]>>a[1]>>a[2];
-    cout<<"Ingrese el tamaño del segundo Vector: "<<endl;
+    cout<<"Ingrese el tamaño del segundo Vector a modo de [x] [x] [X]: "<<endl;
     cin>>b[0]>>b[1]>>b[2];
 
     do{

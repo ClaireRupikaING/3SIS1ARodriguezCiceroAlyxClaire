@@ -62,7 +62,7 @@ void generarNumeroCuenta(Alumno& alumno) {
     alumno.numeroCuenta = "GX-" + to_string(numeroAleatorio);
     //Obvio no dejo pasar la oportunidad de agregar una referencia a F-Zero GX XD
 
-    cout << "Tu número de cuenta asignado es: " << alumno.numeroCuenta << endl;
+                   cout << "Tu número de cuenta asignado es: " << alumno.numeroCuenta << endl;
 }
 
 void entregaComprobante(const Alumno& alumno) {
