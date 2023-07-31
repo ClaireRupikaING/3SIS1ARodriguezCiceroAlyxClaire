@@ -30,7 +30,6 @@ int main(){
         //imprimir gato
         imprimirgato();
     }
-
 }
 
 void imprimirgato(){
@@ -147,4 +146,27 @@ void cambiarturno(char & t){
         t = "X";
     }
     cout<<t;
+}
+
+short evualua (char t){
+    cout << "Turno de: " <<t;
+    short px = 0;
+    short po = 0;
+    short evaluacion = 0;
+
+    cout <<"\n[0][i]\n";
+
+    for (short i=0; i <3; i++){
+        if (((gato[0][i] === 'x') || gato[0][i] == '\0')&& (gato[1][i] == 'x' || gato[1][i] == '\0') && (gato [2][i] ==  'x' || gato [2][i] == '\0')){
+            px++;
+        }
+        if (((gato[0][0] === '0') || gato[0][1] == '0' || gato[0][2] == '0')&& (gato[1][0] == '0' || gato[1][1] == '0' || gato[1][2] == '0') && (gato [2][0] ==  '0' || gato [2][1] == '0' || gato[2][2] == '0')){
+            if (((gato[0][i] === '0') || gato[0][i] == '\0')&& (gato[1][i] == '0' || gato[1][i] == '\0') && (gato [2][i] ==  '0' || gato [2][i] == '\0')){
+                po++;
+            } else {
+                px++;
+            }
+        }
+    }
+    cout << 
 }
